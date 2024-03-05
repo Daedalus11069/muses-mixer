@@ -1,6 +1,6 @@
 {
   "name": "muses-mixer",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "🎛️ JavaScript Audio Mixing Console Module 🔊",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samuraicorpse/muses.git"
+    "url": "git+https://github.com/Daedalus11069/muses-mixer.git"
   },
   "keywords": [
     "audio",
@@ -28,9 +28,9 @@
   "author": "Angel Rodriguez <xangelrodriguez99@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/samuraicorpse/muses/issues"
+    "url": "https://github.com/Daedalus11069/muses-mixer/issues"
   },
-  "homepage": "https://github.com/samuraicorpse/muses#readme",
+  "homepage": "https://github.com/Daedalus11069/muses-mixer#readme",
   "devDependencies": {
     "markdown-toc": "^1.2.0",
     "md-toc-cli": "^2.0.0",
@@ -39,9 +39,5 @@
     "typedoc": "^0.22.10",
     "typedoc-twilio-theme": "^1.0.1",
     "typescript": "^4.5.4"
-  },
-  "dependencies": {
-    "@types/audio-context": "^1.0.1",
-    "audio-context": "^1.0.3"
   }
 }

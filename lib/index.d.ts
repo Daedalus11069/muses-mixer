@@ -32,9 +32,9 @@ export declare class AudioMixer {
      * If necessary, you can execute this method once the user executes the action in order to allow access to the *AudioContext*.
      * Basically, this method verify and executes another funtion inside the *AudioContext* object, **AudioContext.resume()**.
      * @see https://goo.gl/7K7WLu - For more details about auto-play policy.
-     * @returns {void}
+     * @returns {string} - AudioContext status.
      */
-    resumeContext(): void;
+    resumeContext(): string;
     /**
      * Add a new channel in the current AudioMixer.
      * @param {String} [id] - (Default) The current channel index.
@@ -168,21 +168,21 @@ export declare class AudioChannel {
     /**
      * Modify the low-EQ value of the current channel (from -40 to 36) dB
      * @param {number} value - from -40dB to 36dB
-    */
+     */
     set lowEQ(value: number);
     /** Get the current low-EQ value */
     get lowEQ(): number;
     /**
      * Modify the mid-EQ value of the current channel (from -40 to 36) dB
      * @param {number} value - from -40dB to 36dB
-    */
+     */
     set midEQ(value: number);
     /** Get the current mid-EQ value */
     get midEQ(): number;
     /**
      * Modify the high-EQ value of the current channel (from -40 to 36) dB
      * @param {number} value - from -40dB to 36dB
-    */
+     */
     set highEQ(value: number);
     /** Get the current high-EQ value */
     get highEQ(): number;
