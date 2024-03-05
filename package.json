@@ -33,7 +33,7 @@
   "homepage": "https://github.com/Daedalus11069/muses-mixer#readme",
   "devDependencies": {
     "markdown-toc": "^1.2.0",
-    "md-toc-cli": "^2.0.0",
+    "md-toc-cli": "^3.0.0",
     "minify": "^8.0.3",
     "tsify": "^5.0.4",
     "typedoc": "^0.22.10",
